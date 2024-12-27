@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='mt-16 py-6 text-center text-black'>
+    <div className='mt-16 py-6 text-center bg-slate-600 text-white'>
       
 © Nahead | All rights reserved 2024.
     </div>
