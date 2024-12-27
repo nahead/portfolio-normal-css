@@ -4,41 +4,24 @@ import Card from './Card'
 
 const data =[
   {  id: 0,
-    title:"Static Interactive Resume",
-  desc:"A TpeScript-based interactive resume built with HTML and CSS",
+    title:"E-Commerce Website",
+  desc:"This is my e-commerce website using HTML CSS  & Reactjs ",
   img:"/project2.jpg",
-  tags:["HTML","Node","TypeScript","CSS"]
+  tags:["HTML","CSS","TypwScript","NextJs"]
   },
   {  id: 1,
     title:"Static Interactive Resume",
   desc:"A TpeScript-based interactive resume built with HTML and CSS",
-  img:"/project2.jpg",
+  img:"/resume.png",
   tags:["HTML","Node","TypeScript","CSS"]
   },
   {  id: 2,
-    title:"Static Interactive Resume",
-  desc:"A TpeScript-based interactive resume built with HTML and CSS",
-  img:"/project2.jpg",
+    title:" Responsive Portfolio",
+  desc:" HTML CSS with TypeScript",
+  img:"/p.png",
   tags:["HTML","Node","TypeScript","CSS"]
   },
-  {  id: 3,
-    title:"Static Interactive Resume",
-  desc:"A TpeScript-based interactive resume built with HTML and CSS",
-  img:"/project2.jpg",
-  tags:["HTML","Node","TypeScript","CSS"]
-  }, 
-  {  id: 4,
-    title:"Static Interactive Resume",
-  desc:"A TpeScript-based interactive resume built with HTML and CSS",
-  img:"/project2.jpg",
-  tags:["HTML","Node","TypeScript","CSS"]
-  },
-  {  id: 5,
-    title:"Static Interactive Resume",
-  desc:"A TpeScript-based interactive resume built with HTML and CSS",
-  img:"/project2.jpg",
-  tags:["HTML","Node","TypeScript","CSS"]
-  }
+
 ]
 
 const Projects = () => {

@@ -38,7 +38,7 @@ const Contact = () => {
             id='msg' rows={8}></textarea>
            
           </div>
-          <button className='bg-accent p-2 px-6 'data-aos="zoom-in-up">Send</button>
+          <button className='bg-gray-50 text-stone-950 p-2 px-6  rounded-3xl w-40'data-aos="zoom-in-up">Send Message</button>
         </div>
       </div>
     </div>

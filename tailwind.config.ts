@@ -13,7 +13,7 @@ export default {
       padding:"15px"
       },
       colors: {
-      accent:"#08E95E"
+      accent:"#gray"
       },
     },
   },
