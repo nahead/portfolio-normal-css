@@ -16,8 +16,8 @@ const Navbar = () => {
             <li className='menuLink'><a href="#hero">Home</a></li>
             <li className='menuLink'><a href="#about">About</a></li>
             <li className='menuLink'><a href="#projects">Projects</a></li>
-            <li className='menuLink'><a href="#skills">skills</a></li>
-            <li className='menuLink'><a href="#contact">contact</a></li>
+            <li className='menuLink'><a href="#skills">Skills</a></li>
+            <li className='menuLink'><a href="#contact">Contact</a></li>
         </ul>
 <div className='md:hidden' onClick={togglemenu}>
   {isMenuOpen? <AiOutlineClose size={29 }/>:        <MdOutlineMenu className='md:hidden' size={29}/>}
