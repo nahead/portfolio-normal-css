@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import React from 'react'
+import React from 'react';
+import '../app/style/card.css';
 
 interface propsType {
   title: string;
@@ -10,17 +11,17 @@ interface propsType {
 
 const Card: React.FC<propsType> = ({ title, desc, img, tags }) => {
   return (
-    <div className='border border-accent w-[300px] sm:w[350px]' data-aos="zoom-in-up" >
+    <div className='card' data-aos="zoom-in-up">
       <div>
-        <Image className='w-[300px] sm:w[350px] h-auto'
+        <Image className='card-image'
           src={img}
           alt={title}
           width={350}
           height={350}
         />
       </div>
-      <div className="p-4 space-y-4">
-        <div className="text-4xl font-extralight">{title}</div>
+      <div className="card-content">
+        <div className="card-title">{title}</div>
         <div>{desc}</div>
         <div>
           {tags.map((el) => (
@@ -34,4 +35,4 @@ const Card: React.FC<propsType> = ({ title, desc, img, tags }) => {
   )
 }
 
-export default Card
+export default Card;

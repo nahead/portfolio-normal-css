@@ -1,0 +1,11 @@
+.heading-container {
+    text-align: center;
+    font-size: 2.25rem; /* text-4xl */
+    padding-bottom: 2rem; /* pb-8 */
+  }
+  
+  .heading-title {
+    border-bottom-width: 4px; /* border-b-4 */
+    display: inline-block;
+    padding-bottom: 0.5rem; /* pb-2 */
+  }

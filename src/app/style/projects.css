@@ -1,0 +1,23 @@
+#projects {
+    padding-top: 0.5rem; /* pt-2 */
+  }
+  
+  .projects-grid {
+    display: grid;
+    gap: 2.5rem; /* gap-10 */
+    place-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr); /* lg:grid-cols-3 */
+      gap: 0; /* xl:gap-0 */
+      row-gap: 2.5rem; /* xl:gap-y-10 */
+    }
+  }

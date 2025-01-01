@@ -1,10 +1,10 @@
 import React from 'react'
+import '../app/style/footer.css'
 
 const Footer = () => {
   return (
-    <div className='mt-16 py-6 text-center bg-slate-600 text-white'>
-      
-© Nahead | All rights reserved 2024.
+    <div className='footer-container'>
+      © Nahead | All rights reserved 2024.
     </div>
   )
 }

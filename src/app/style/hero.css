@@ -1,0 +1,75 @@
+#hero {
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: left;
+    background-image: url('/profile.jpg');
+    border-radius: 50%;
+  }
+  
+  @media (min-width: 768px) {
+    #hero {
+      background-image: url('/profile.jpg');
+      background-position: left;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-position: 16%;
+    }
+  }
+  
+  .hero-image {
+    position: absolute;
+    margin-left: 6rem; /* ml-24 */
+    margin-top: 5rem; /* mt-20 */
+  }
+  
+  @media (min-width: 640px) {
+    .hero-image {
+      margin-left: 220px; /* sm:ml-[220] */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-image {
+      display: none; /* md:hidden */
+    }
+  }
+  
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: calc(100vh - 60px);
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-container {
+      grid-template-columns: repeat(2, 1fr); /* lg:grid-cols-2 */
+    }
+  }
+  
+  .hero-text {
+    font-size: 80px; /* text-[80px] */
+    font-weight: bold;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .hero-text {
+      font-size: 80px; /* sm:text-[100px] */
+    }
+  }
+  
+  .hero-text-content {
+    margin-top: 13rem; /* mt-52 */
+  }
+  
+  @media (min-width: 768px) {
+    .hero-text-content {
+      margin-top: 0; /* md:mt-0 */
+    }
+  }

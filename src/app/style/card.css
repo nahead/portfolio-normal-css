@@ -1,0 +1,32 @@
+.card {
+    border: 1px solid var(--accent-color);
+    width: 300px;
+  }
+  
+  @media (min-width: 640px) {
+    .card {
+      width: 350px;
+    }
+  }
+  
+  .card-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .card-image {
+      width: 350px;
+    }
+  }
+  
+  .card-content {
+    padding: 1rem;
+   
+  }
+  
+  .card-title {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: 200; /* extralight */
+  }
+  

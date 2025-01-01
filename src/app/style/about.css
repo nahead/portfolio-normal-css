@@ -1,0 +1,18 @@
+#about {
+    padding-top: 36px;
+  }
+  
+  .about-title {
+    font-size: 2.25rem; /* 4xl */
+  }
+  
+  @media (min-width: 768px) {
+    .about-title {
+      font-size: 3rem; /* 5xl */
+    }
+  }
+  
+  .about-text {
+    padding-top: 1rem; /* pt-4 */
+    color: antiquewhite;
+  }

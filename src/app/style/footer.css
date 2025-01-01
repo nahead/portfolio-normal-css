@@ -1,0 +1,7 @@
+.footer-container {
+    margin-top: 4rem; /* mt-16 */
+    padding: 1.5rem 0; /* py-6 */
+    text-align: center;
+    background-color: #475569; /* bg-slate-600 */
+    color: #ffffff; /* text-white */
+  }
